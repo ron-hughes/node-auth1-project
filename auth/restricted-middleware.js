@@ -3,6 +3,6 @@ module.exports = (req,  res, next) => {
            next();
        }
        else {
-           res.status(401).json({ message: 'not logged in'})
+           res.status(401).json({ message: 'You shall not pass!'})
        }
    }
